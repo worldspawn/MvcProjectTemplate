@@ -107,7 +107,6 @@
     <Content Include="Content\js\jquery.validate.min.js" />
     <Content Include="Content\js\knockout-2.2.0.debug.js" />
     <Content Include="Content\js\knockout-2.2.0.js" />
-    <Content Include="Content\js\less.min.js" />
     <Content Include="Web.config" />
     <Content Include="Content\js\jquery.unobtrusive-ajax.js" />
     <Content Include="Content\js\jquery.unobtrusive-ajax.min.js" />

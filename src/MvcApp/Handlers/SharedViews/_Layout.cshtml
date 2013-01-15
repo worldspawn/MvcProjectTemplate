@@ -1,11 +1,18 @@
-﻿<!DOCTYPE html>
+﻿@using Cassette.Views
+@{
+    Bundles.Reference("content/less");
+    Bundles.Reference("content/js/core");
+}
+<!DOCTYPE html>
 <html>
 <head>
     <title>@ViewBag.Title</title>
-    <link href="@Url.Content("~/Content/less/Site.less")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("Content/less/Site.less")" rel="stylesheet" type="text/css" />
+    @Bundles.RenderStylesheets()
 </head>
 
 <body>
     @RenderBody()
+    @Bundles.RenderScripts()
 </body>
 </html>
