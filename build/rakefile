@@ -1,0 +1,14 @@
+require 'albacore'
+
+solutionname = ENV["solutionname"]
+config = ENV["config"] || "Debug"
+
+desc "Default"
+task :default => [:build]
+
+desc "Run a sample build using the MSBuildTask"
+msbuild :build do |msb|
+  msb.properties = { :configuration => config }
+  msb.targets = [ :Clean, :Build ]
+  msb.solution = "../src/#{solutionname}.sln"
+end

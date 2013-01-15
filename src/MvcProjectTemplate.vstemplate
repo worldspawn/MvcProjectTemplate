@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Mvc Solution</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <Icon>MvcProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+  </TemplateData>
+  <TemplateContent>
+      <ProjectCollection>
+          <ProjectTemplateLink ProjectName="MvcApp">MvcApp\MvcApp.vstemplate</ProjectTemplateLink>
+      </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
