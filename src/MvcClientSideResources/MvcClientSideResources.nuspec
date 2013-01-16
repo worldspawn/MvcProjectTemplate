@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MvcClientSideResources</id>
+    <version>1.0.0</version>
+    <authors>sam.critchley</authors>
+    <owners>sam.critchley</owners>
+    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Installs an arranges a set of client side libraries how I like it</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Mvc</tags>
+    <dependencies>
+      <!--<dependency id="SampleDependency" version="1.0" />-->
+      <dependency id="jQuery" version="1.9.0" />
+      <dependency id="jQuery.Validation" version="1.10.0" />
+      <dependency id="knockoutjs" version="2.2.1" />
+      <dependency id="Twitter.Bootstrap.Less" version="2.2.2.1" />
+    </dependencies>
+  </metadata>
+</package>
