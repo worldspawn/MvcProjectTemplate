@@ -5,6 +5,7 @@
     <Description>&lt;No description available&gt;</Description>
     <Icon>MvcProjectTemplate.ico</Icon>
     <ProjectType>CSharp</ProjectType>
+    <CreateNewFolder>true</CreateNewFolder>
   </TemplateData>
   <TemplateContent>
       <ProjectCollection>

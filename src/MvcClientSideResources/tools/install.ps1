@@ -5,9 +5,6 @@ param($installPath, $toolsPath, $package, $project)
 # move content/_less/* content/less
 # delete content/_less
 
-
-Write-Host "DOING A DANCE"
-
 ForEach ($item in $project.ProjectItems) { 
 	if ($item.Name -eq "Scripts"){
 		Write-Host "Found Scripts"
@@ -36,37 +33,32 @@ ForEach ($item in $project.ProjectItems) {
 	}
 }
 
-Write-Host "Moving Scripts"
-
 ForEach ($item in $scripts.ProjectItems) {
-	Write-Host $item.FileNames
-	Write-Host $item.FileNames[0]
-	Write-Host $item.FileNames(0)
-
-	ForEach ($filename in $item.FileNames) {
-		#Write-Host $filename, $item.Name
-		#$js.ProjectItems.AddFromFileCopy($filename)
+	For ($i=0; $i -lt $item.FileCount; $i++)
+	{
+		Write-Host $item.FileNames($i)
+		$js.ProjectItems.AddFromFileCopy($item.FileNames($i))
 	}
-
-	$item.Delete()
 }
 
+$scripts.Delete()
+
 ForEach ($item in $less.ProjectItems) {
-	ForEach ($filename in $item.FileNames) {
-		Write-Host $filename
-		#$bootstrap.ProjectItems.AddFromFileCopy($filename)
+	For ($i=0; $i -lt $item.FileCount; $i++)
+	{
+		Write-Host $item.FileNames($i)
+		$bootstrap.ProjectItems.AddFromFileCopy($item.FileNames($i))
 	}
 
 	$item.Delete()
 }
 
 ForEach ($item in $_less.ProjectItems) {
-	ForEach ($filename in $item.FileNames) {
-		Write-Host $filename
-		#$less.ProjectItems.AddFromFileCopy($filename)
+	For ($i=0; $i -lt $item.FileCount; $i++)
+	{
+		Write-Host $item.FileNames($i)
+		$less.ProjectItems.AddFromFileCopy($item.FileNames($i))
 	}
-
-	$item.Delete()
 }
 
-$less.Delete()
+$_less.Delete()

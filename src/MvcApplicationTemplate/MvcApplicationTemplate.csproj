@@ -62,50 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="MvcApplicationTemplate.ico" />
-    <None Include="MvcApp\Content\bootstrap\accordion.less" />
-    <None Include="MvcApp\Content\bootstrap\alerts.less" />
-    <None Include="MvcApp\Content\bootstrap\bootstrap.less" />
-    <None Include="MvcApp\Content\bootstrap\breadcrumbs.less" />
-    <None Include="MvcApp\Content\bootstrap\button-groups.less" />
-    <None Include="MvcApp\Content\bootstrap\buttons.less" />
-    <None Include="MvcApp\Content\bootstrap\carousel.less" />
-    <None Include="MvcApp\Content\bootstrap\close.less" />
-    <None Include="MvcApp\Content\bootstrap\code.less" />
-    <None Include="MvcApp\Content\bootstrap\component-animations.less" />
-    <None Include="MvcApp\Content\bootstrap\dropdowns.less" />
-    <None Include="MvcApp\Content\bootstrap\forms.less" />
-    <None Include="MvcApp\Content\bootstrap\grid.less" />
-    <None Include="MvcApp\Content\bootstrap\hero-unit.less" />
-    <None Include="MvcApp\Content\bootstrap\labels-badges.less" />
-    <None Include="MvcApp\Content\bootstrap\layouts.less" />
-    <None Include="MvcApp\Content\bootstrap\media.less" />
-    <None Include="MvcApp\Content\bootstrap\mixins.less" />
-    <None Include="MvcApp\Content\bootstrap\modals.less" />
-    <None Include="MvcApp\Content\bootstrap\navbar.less" />
-    <None Include="MvcApp\Content\bootstrap\navs.less" />
-    <None Include="MvcApp\Content\bootstrap\pager.less" />
-    <None Include="MvcApp\Content\bootstrap\pagination.less" />
-    <None Include="MvcApp\Content\bootstrap\popovers.less" />
-    <None Include="MvcApp\Content\bootstrap\progress-bars.less" />
-    <None Include="MvcApp\Content\bootstrap\reset.less" />
-    <None Include="MvcApp\Content\bootstrap\responsive-1200px-min.less" />
-    <None Include="MvcApp\Content\bootstrap\responsive-767px-max.less" />
-    <None Include="MvcApp\Content\bootstrap\responsive-768px-979px.less" />
-    <None Include="MvcApp\Content\bootstrap\responsive-navbar.less" />
-    <None Include="MvcApp\Content\bootstrap\responsive-utilities.less" />
-    <None Include="MvcApp\Content\bootstrap\responsive.less" />
-    <None Include="MvcApp\Content\bootstrap\scaffolding.less" />
-    <None Include="MvcApp\Content\bootstrap\sprites.less" />
-    <None Include="MvcApp\Content\bootstrap\tables.less" />
-    <None Include="MvcApp\Content\bootstrap\thumbnails.less" />
-    <None Include="MvcApp\Content\bootstrap\tooltip.less" />
-    <None Include="MvcApp\Content\bootstrap\type.less" />
-    <None Include="MvcApp\Content\bootstrap\utilities.less" />
-    <None Include="MvcApp\Content\bootstrap\variables.less" />
-    <None Include="MvcApp\Content\bootstrap\wells.less" />
-    <None Include="MvcApp\Content\js\jquery-1.9.0.min.map" />
-    <None Include="MvcApp\Content\less\site.less" />
-    <None Include="MvcApp\Content\less\variables.less" />
     <None Include="MvcApp\Handlers\Default\Home\Index.cshtml" />
     <None Include="MvcApp\Handlers\Default\_ViewStart.cshtml" />
     <None Include="MvcApp\Handlers\SampleArea\Home\Index.cshtml" />
@@ -118,26 +74,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MvcApplicationTemplate.vstemplate" />
-    <None Include="MvcApp\Content\images\glyphicons-halflings-white.png" />
-    <None Include="MvcApp\Content\images\glyphicons-halflings.png" />
-    <None Include="MvcApp\Content\js\bootstrap.js" />
-    <None Include="MvcApp\Content\js\bootstrap.min.js" />
-    <None Include="MvcApp\Content\js\jquery-1.9.0-vsdoc.js" />
-    <None Include="MvcApp\Content\js\jquery-1.9.0.js" />
-    <None Include="MvcApp\Content\js\jquery-1.9.0.min.js" />
     <None Include="MvcApp\Content\js\jquery.unobtrusive-ajax.js" />
     <None Include="MvcApp\Content\js\jquery.unobtrusive-ajax.min.js" />
-    <None Include="MvcApp\Content\js\jquery.validate-vsdoc.js" />
-    <None Include="MvcApp\Content\js\jquery.validate.js" />
-    <None Include="MvcApp\Content\js\jquery.validate.min.js" />
     <None Include="MvcApp\Content\js\jquery.validate.unobtrusive.js" />
     <None Include="MvcApp\Content\js\jquery.validate.unobtrusive.min.js" />
-    <None Include="MvcApp\Content\js\knockout-2.2.1.debug.js" />
-    <None Include="MvcApp\Content\js\knockout-2.2.1.js" />
     <None Include="MvcApp\Global.asax" />
     <None Include="MvcApp\MvcApp.csproj" />
     <None Include="MvcApp\MvcApp.ico" />
-    <VSTemplate Include="MvcApp\MvcApp.vstemplate" />
+    <VSTemplate Include="MvcApp\MvcApp.vstemplate">
+      <SubType>Designer</SubType>
+    </VSTemplate>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\VSSDK\Microsoft.VsSDK.targets" />

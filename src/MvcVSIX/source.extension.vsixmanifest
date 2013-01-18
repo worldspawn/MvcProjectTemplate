@@ -27,6 +27,11 @@
     <CustomExtension Type="Cassette.Views.2.0.0.nupkg">packages/Cassette.Views.2.0.0.nupkg</CustomExtension>
     <CustomExtension Type="DotlessClientOnly.1.3.1.0.nupkg">packages/DotlessClientOnly.1.3.1.0.nupkg</CustomExtension>
     <CustomExtension Type="routedebugger.2.1.4.0.nupkg">packages\routedebugger.2.1.4.0.nupkg</CustomExtension>
+    <CustomExtension Type="jQuery.1.9.0.nupkg">packages\jQuery.1.9.0.nupkg</CustomExtension>
+    <CustomExtension Type="jQuery.Validation.1.10.0.nupkg">packages\jQuery.Validation.1.10.0.nupkg</CustomExtension>
+    <CustomExtension Type="knockoutjs.2.2.1.nupkg">packages\knockoutjs.2.2.1.nupkg</CustomExtension>
+    <CustomExtension Type="Twitter.Bootstrap.Less.2.2.2.1.nupkg">packages\Twitter.Bootstrap.Less.2.2.2.1.nupkg</CustomExtension>
+    <CustomExtension Type="MvcClientSideResources.1.0.0.nupkg">packages\MvcClientSideResources.1.0.0.nupkg</CustomExtension>
     <ProjectTemplate>ProjectTemplates</ProjectTemplate>
   </Content>
 </Vsix>
